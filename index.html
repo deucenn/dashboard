@@ -4,43 +4,73 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
     <title>Admin Dashboard</title>
   </head>
   <body>
     <div class="container">
       <div class="nav">
-        <h1>HOLICHECK</h1>
-        <h2>MENU</h2>
-        <div class="nav-items">
-            <p>Overview</p>
+        <h1 class="header">HOLICHECK</h1>
+        <div class="nav-menu">
+          <h2 class="menu-divider">MENU</h2>
+          <div class="nav-items">
+            <span class="material-icons-outlined text-icon"> home </span>
+            <p class="text">Overview</p>
+          </div>
+          <div class="nav-items">
+            <span class="material-icons-outlined text-icon"> bar_chart </span>
+            <p class="text">Statistics</p>
+          </div>
+          <div class="nav-items">
+            <span class="material-icons-outlined text-icon">
+              sentiment_very_satisfied
+            </span>
+            <p class="text">Customers</p>
+          </div>
+          <div class="nav-items">
+            <span class="material-icons-outlined text-icon"> inventory_2 </span>
+            <p class="text">Products</p>
+          </div>
+          <div class="nav-items">
+            <span class="material-icons-outlined text-icon">
+              mail_outline
+            </span>
+            <p class="text">Messages</p>
+          </div>
+          <div class="nav-items">
+            <span class="material-icons-outlined text-icon">
+              account_balance_wallet
+            </span>
+            <p class="text">Transactions</p>
+          </div>
         </div>
-        <div class="nav-items">
-            <p>Statistics</p>
+        <hr class="divider-general" />
+        <div class="nav-general">
+          <h2 class="menu-divider">GENERAL</h2>
+          <div class="nav-items">
+            <span class="material-icons-outlined text-icon"> home </span>
+            <p class="text">Settings</p>
+          </div>
+          <div class="nav-items">
+            <span class="material-icons-outlined text-icon"> shield </span>
+            <p class="text">Security</p>
+          </div>
         </div>
-        <div class="nav-items">
-            <p>Customers</p>
-        </div>
-        <div class="nav-items">
-            <p>Products</p>
-        </div>
-        <div class="nav-items">
-            <p>Messages</p>
-        </div>
-        <div class="nav-items">
-            <p>Transactions</p>
-        </div>
-        <h2>GENERAL</h2>
-        <div class="nav-items">
-            <p>Settings</p>
-        </div>
-        <div class="nav-items">
-            <p>Security</p>
-        </div>
-        <div class="profile">
+        <hr class="divider-profile" />
+        <div class="nav-profile">
+          <img
+            class="profile-picture"
+            src="./assets/Open Peeps - Avatar and Backdrop.png"
+          />
+          <div class="profile-info">
             <p class="profile-name">Jim Doe</p>
             <p class="profile-mail">jimdoe@testmail.com</p>
+          </div>
         </div>
-    </div>
+      </div>
       <div class="content"></div>
     </div>
   </body>
